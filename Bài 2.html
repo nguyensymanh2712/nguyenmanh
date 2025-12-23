@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form đăng ký thành viên</title>
+</head>
+
+<body>
+
+    <h2>Form đăng ký thành viên</h2>
+
+    <form action="#" method="post">
+
+        <!-- Họ và tên -->
+        <label>
+            Họ và tên:
+            <input type="text" name="hoten">
+        </label>
+        <br><br>
+
+        <!-- Email -->
+        <label>
+            Email:
+            <input type="text" name="email">
+        </label>
+        <br><br>
+
+        <!-- Mật khẩu -->
+        <label>
+            Mật khẩu:
+            <input type="password" name="matkhau">
+        </label>
+        <br><br>
+
+        <!-- Giới tính (radio – chỉ chọn 1) -->
+        Giới tính:
+        <input type="radio" name="gioitinh" value="Nam"> Nam
+        <input type="radio" name="gioitinh" value="Nu"> Nữ
+        <br><br>
+
+        <!-- Sở thích (checkbox – chọn nhiều, ít nhất 2 khi làm thực tế) -->
+        Sở thích:
+        <input type="checkbox" name="sothich" value="The thao"> Thể thao
+        <input type="checkbox" name="sothich" value="Am nhac"> Âm nhạc
+        <input type="checkbox" name="sothich" value="Du lich"> Du lịch
+        <br><br>
+
+        <!-- Nút -->
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>

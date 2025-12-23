@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form đặt hàng đơn giản</title>
+</head>
+
+<body>
+
+    <h2>Form đặt hàng</h2>
+
+    <form action="#" method="post">
+
+        <!-- Tên khách hàng -->
+        <label>
+            Tên khách hàng:
+            <input type="text" name="tenkhachhang">
+        </label>
+        <br><br>
+
+        <!-- Số điện thoại -->
+        <label>
+            Số điện thoại:
+            <input type="text" name="sodienthoai">
+        </label>
+        <br><br>
+
+        <!-- Sản phẩm -->
+        <label>
+            Sản phẩm:
+            <select name="sanpham">
+                <option value="Ao">Áo</option>
+                <option value="Quan">Quần</option>
+                <option value="Giay">Giày</option>
+            </select>
+        </label>
+        <br><br>
+
+        <!-- Số lượng -->
+        <label>
+            Số lượng:
+            <input type="number" name="soluong" min="1">
+        </label>
+        <br><br>
+
+        <!-- Hình thức thanh toán -->
+        Hình thức thanh toán:
+        <br>
+        <input type="radio" name="thanhtoan" value="Tien mat"> Tiền mặt
+        <br>
+        <input type="radio" name="thanhtoan" value="Chuyen khoan"> Chuyển khoản
+        <br><br>
+
+        <!-- Ghi chú -->
+        <label>
+            Ghi chú:
+            <br>
+            <textarea name="ghichu" rows="3"></textarea>
+        </label>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Đặt hàng">
+
+    </form>
+
+</body>
+
+</html>
